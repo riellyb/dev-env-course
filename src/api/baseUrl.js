@@ -1,6 +1,6 @@
 export default function getBaseUrl() {
 	
-	return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3031' : 'http://localhost:3030';
+	return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3031' : 'https://salty-fjord-79632.herokuapp.com';
 }
 
 function getQueryStringParameterByName(name, url) {
